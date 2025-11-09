@@ -96,8 +96,7 @@ TODO (adjust and complete):
 We used SQLite to extract revelant information for our analysis:
 
 - Total number of valid of transactions after data cleaning:
-  20,524 valid transactions. It suggests that average number of distinct products contained in each transaction was 26.3 (=540,562/20,524). This seems to suggest that many of the consumers of the business were
-  organizational customers rather than individual customers.
+  20,524 valid transactions. It suggests that average number of distinct products contained in each transaction was 26.3 (=540,562/20,524). This seems to suggest that many of the consumers of the business were organizational customers rather than individual customers. Also the majority of the sales were from United Kingdom with 18,628 transactions and total sales of 8.6million pounds.
  
 
 - Distribution of the top 10 sales by country
@@ -132,9 +131,16 @@ We used SQLite to extract revelant information for our analysis:
   #feature_analysis file under experiments folder
   #plot image for support in the support images folder
 
+Our initial correlation model shows a correlation value between Quantity and UnitPrice of: -0.0209, which is a weak correlation. It is virtually no linear relationship between Quantity and UnitPrice. A small negative correlation (–0.0209) suggests that, on average, buying more items is very slightly associated with lower unit prices. However, this is a bit counterintuitive and not meaningful based on normal business sense. We can see from the ploted Quantity and UnitPrice chart below. 
+
+![Online Retail Dataset ](https://github.com/lebronbrian23/ml4-online-retail/blob/main/support_images/correlation_qty_price.png)
+
+
+
 - RFM (Recency, Frequency, Monetary) analysis for feature engineering
   #feature_analysis file under experiments folder (needs paraphrasing)
-CustomerID | Recency | Frequency | Monetary | RFM Score | Interpretation                          |
+
+| CustomerID | Recency | Frequency | Monetary | RFM Score | Interpretation                          |
 |------------|---------|-----------|----------|-----------|------------------------------------------|
 | 12347      | 2       | 7         | £4,310.00| 5-5-5     | Best customer: recent, frequent, high spender |
 | 12348      | 75      | 4         | £1,797.24| 2-4-4     | Good spender, moderately active        |
