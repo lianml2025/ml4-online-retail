@@ -70,7 +70,7 @@ Steps
 
 ### Dataset Variables
 
-| Variable Name     | Role     | Type         | Description                                                                 |
+| Variable Name      | Role     | Type         | Description                                                                 |
 |--------------------|----------|--------------|------------------------------------------------------------------------------|
 | InvoiceNo          | ID       | Categorical  | A 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'C', it indicates a cancellation. |
 | StockCode          | ID       | Categorical  | A 5-digit integral number uniquely assigned to each distinct product.        |
@@ -82,7 +82,7 @@ Steps
 | Country            | Feature  | Categorical  | The name of the country where each customer resides.                         |
 | Year               | Derived  | Integer      | The year extracted from the `InvoiceDate`.                                   |
 | Month              | Derived  | Integer      | The month extracted from the `InvoiceDate`.                                  |
-| Subtotal           | Derived  | Float        | The total amount for each item (Quantity × UnitPrice).                       |
+| Subtotal           | Derived  | Continuous   | The total amount for each item (Quantity × UnitPrice).                       |
 | CancellationFlag   | Derived  | Categorical  | Indicates whether a transaction is cancelled or matched with another invoice. |
 
 
