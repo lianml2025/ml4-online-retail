@@ -19,7 +19,8 @@ Machine learning model for customer segmentation using the [Online Retail datase
 
 Clustering: We are to segment customers into meaningful behavioral groups based on their purchasing behavior(eg., product quantities, unit prices, and transaction frequency), country of origins etc.
 
-TODO (adjust and complete): This project explores both supervised and unsupervised learning techniques to cluster customers based on purchasing behavior: Recency, Frequency, and Monetary like  product quantities, unit prices, and transaction frequency to help business decision and stretegie. The project tries to identify differnt segments based on the clustering results to reflect customer behaviour. This can provide customer insights to turn complex purchasing data into actionable insights that are easy to interpret to non-technical user.
+This project explores both supervised and unsupervised learning techniques to cluster customers based on purchasing behavior: Recency, Frequency, and Monetary like product quantities, unit prices, and transaction frequency. It applies the machine learning techniques to the online retail dataset. Our goal is to identify meaningful customer segment and create well-separated stable clusters with balance segmentation. The project tries to identify different segments based on RFM metrics to reflect customer behaviour. The distinct customer groups characterized in the project can help the business better understand its products and customers in terms of their profitability. It also turns complex purchasing data into provide customer insights that are easy to interpret to non-technical user.
+
 
 
 **Dataset Summary:**  
@@ -28,13 +29,18 @@ This transactional dataset contains all purchases made between 01/12/2010 and 09
 
 ## 🎯 Objectives & Success Criteria
 
-TODO (adjust and complete):
+Objectives:
 - Identify meaningful customer clusters using unsupervised learning
+- Create well-separated stable clusters
 - Evaluate clustering quality using metrics like silhouette score and intra-cluster variance
 - Ensure reproducibility and interpretability of the pipeline
 - Document ethical considerations and potential biases
 
----
+Success Criteria:
+-	Clustering achieves a Silhouette Score ≥ 0.6 with low intra-cluster variance
+-	Clusters are clearly interpretable and meaningful to business
+-	Reducible repreductivity with all preprocessing, feature scaling
+-	Unbias segmentation 
 
 ## 📊 Data Introduction & Analysis
 
