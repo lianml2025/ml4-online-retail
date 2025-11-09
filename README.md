@@ -63,7 +63,7 @@ Steps
 - Add date columns.
 - Handle missing CustomerID.
 - Remove invalid InvoiceNo entries.
-- Convert dates to useful features (e.g., recency, frequency)[Isabelle: how do we do it?]
+- Convert dates to useful features. 
 - Add Subtotal column.
 - Flag cancellations.
 - Remove invalid quantity records.
@@ -86,7 +86,8 @@ Steps
 | CancellationFlag   | Derived  | Categorical  | Indicates whether a transaction is cancelled or matched with another invoice. |
 
 ### Dataset Precessing Summary
-After our data cleaning, the records in the dataset go down to: 540562 from the original: 541909 records. We added four new columns: Year, Month, Subtotal and CancellationFlat for advance data analysis, and the dataset goes from the original 8 columns to 12 columns. By including new columns, we improve the dataset without modifying the value of the original fields. Therefore we are confident that our data cleaning preserves the characteristic of the original dataset.
+After our data cleaning, the records in the dataset go down to: 540562 from the original: 541909 records, each for a particular item contained in a
+transaction. We added four new columns: Year, Month, Subtotal and CancellationFlat for advance data analysis, and the dataset goes from the original 8 columns to 12 columns. By including new columns, we improve the dataset without modifying the value of the original fields. Therefore we are confident that our data cleaning preserves the characteristic of the original dataset.
 
 ### Exploratory Analysis
 
@@ -94,8 +95,10 @@ TODO (adjust and complete):
 
 We used SQLite to extract revelant information for our analysis:
 
-- Total number of valid of transactions after data cleaning
-  20,524 valid transaction
+- Total number of valid of transactions after data cleaning:
+  20,524 valid transactions. It suggests that average number of distinct products contained in each transaction was 26.3 (=540,562/20,524). This seems to suggest that many of the consumers of the business were
+  organizational customers rather than individual customers.
+ 
 
 - Distribution of the top 10 sales by country
 | Country         | Transactions | Total Revenue     |
