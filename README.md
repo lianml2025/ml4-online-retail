@@ -85,8 +85,8 @@ Steps
 | Subtotal           | Derived  | Continuous   | The total amount for each item (Quantity × UnitPrice).                       |
 | CancellationFlag   | Derived  | Categorical  | Indicates whether a transaction is cancelled or matched with another invoice. |
 
-### Dataset Summary
-After our data cleaning, the records in the dataset go down to : 540562 from the original : 541909 records. We added four new columnes: Year, Month, Subtotal and CancellationFlat from the original 8 fields to the final 12 fields without modifying the value of the original fields. Therefore we are confident that our data cleaning preserves the characterics of the dataset. 
+### Dataset Precessing Summary
+After our data cleaning, the records in the dataset go down to: 540562 from the original: 541909 records. We added four new columns: Year, Month, Subtotal and CancellationFlat for advance data analysis, and the dataset goes from the original 8 columns to 12 columns. By including new columns, we improve the dataset without modifying the value of the original fields. Therefore we are confident that our data cleaning preserves the characteristic of the original dataset.
 
 ### Exploratory Analysis
 
