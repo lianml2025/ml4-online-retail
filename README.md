@@ -19,7 +19,7 @@ Machine learning model for customer segmentation using the [Online Retail datase
 
 Clustering: How do customers cluster based on their purchasing behavior (eg., product quantities, unit prices, and transaction frequency)
 
-TODO (adjust and complete): This project explores unsupervised learning techniques to cluster customers based on purchasing behavior - including product quantities, unit prices, and transaction frequency.
+TODO (adjust and complete): This project explores both supervised and unsupervised learning techniques to cluster customers based on purchasing behavior: Recency, Frequency, and Monetary like  product quantities, unit prices, and transaction frequency to help business owner .
 
 
 **Dataset Summary:**  
