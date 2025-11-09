@@ -23,7 +23,7 @@ TODO (adjust and complete): This project explores unsupervised learning techniqu
 
 
 **Dataset Summary:**  
-TODO (adjust and complete) This transactional dataset contains all purchases made between 01/12/2010 and 09/12/2011 by customers of a UK-based online retailer specializing in unique all-occasion gifts. Many customers are wholesalers.
+TODO (adjust and complete) This transactional dataset contains all purchases made between 01/12/2010 and 09/12/2011 by customers of a UK-based online retailer specializing in unique all-occasion gifts. Many customers are wholesalers. The raw dataset has about 541909 records. 
 
 ---
 
@@ -63,7 +63,7 @@ Steps
 - Add date columns.
 - Handle missing CustomerID.
 - Remove invalid InvoiceNo entries.
-- Convert dates to useful features (e.g., recency, frequency)
+- Convert dates to useful features (e.g., recency, frequency)[Isabelle: how do we do it?]
 - Add Subtotal column.
 - Flag cancellations.
 - Remove invalid quantity records.
@@ -85,6 +85,8 @@ Steps
 | Subtotal           | Derived  | Continuous   | The total amount for each item (Quantity × UnitPrice).                       |
 | CancellationFlag   | Derived  | Categorical  | Indicates whether a transaction is cancelled or matched with another invoice. |
 
+### Dataset Summary
+After our data cleaning, the records in the dataset go down to : 540562 from the original : 541909 records. We added four new columnes: Year, Month, Subtotal and CancellationFlat from the original 8 fields to the final 12 fields without modifying the value of the original fields. Therefore we are confident that our data cleaning preserves the characterics of the dataset. 
 
 ### Exploratory Analysis
 
