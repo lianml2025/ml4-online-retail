@@ -96,7 +96,6 @@ transaction. We added four new columns: Year, Month, Subtotal and CancellationFl
 
 ### Exploratory Analysis
 
-TODO (adjust and complete):
 
 We used SQLite to extract revelant information for our analysis:
 
@@ -105,6 +104,7 @@ We used SQLite to extract revelant information for our analysis:
  
 
 - Distribution of the top 10 sales by country
+
 | Country         | Transactions | Total Revenue     |
 |----------------|--------------|-------------------|
 | United Kingdom | 18,628       | £8,693,481.34     |
@@ -119,6 +119,7 @@ We used SQLite to extract revelant information for our analysis:
 | Japan           | 19           | £37,416.37        |
 
 - Top 10 selling products overall
+
 | StockCode | Description                               | Total Sold |
 |-----------|-------------------------------------------|------------|
 | 84077     | WORLD WAR 2 GLIDERS ASSTD DESIGNS         | 54,999     |
