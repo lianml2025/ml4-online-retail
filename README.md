@@ -270,4 +270,4 @@ Each team member recorded a 3-5 minute video reflecting on their experience answ
 - [Brian Ssekalegga](https://drive.google.com/file/d/1LavSZWUcDK-UaLSAFCs7tC4VAIb94Cbg/view?usp=sharing)  
 - [Luis Curiel Rojas](https://youtu.be/J51j_RHPuQU) 
 - [Meisam Mofidi](https://drive.google.com/file/d/1nJgJ5vbIEqcV-yFD5QuomaGMtsNn9w-A/view?usp=sharing) 
-- [Minling Lian](https://github.com/lianml2025)
+- [Minling Lian](https://drive.google.com/file/d/1Irao5j3ULGAOsHsr2ptc2dVmtO3aoHQZ/view?usp=sharing)
